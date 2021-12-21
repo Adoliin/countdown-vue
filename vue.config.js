@@ -1,3 +1,3 @@
-module.exports = {
-  publicPath: '/countdown-vue/'
-}
+//module.exports = {
+  //publicPath: '/countdown-vue/'
+//}
