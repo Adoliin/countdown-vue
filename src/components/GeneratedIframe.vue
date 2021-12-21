@@ -65,7 +65,7 @@ export default {
     generateIframe: function() {
       let du = encodeURIComponent(this.iframeObj.deadlineUnix)
       let name = encodeURIComponent(this.iframeObj.name)
-      this.iframeUrl = `${location.protocol}//${location.host}/countdown-vue/#/embed/?du=${du}&name=${name}`
+      this.iframeUrl = `${location.protocol}//${location.host}/#/embed/?du=${du}&name=${name}`
       this.iframeTag = `<iframe src="${this.iframeUrl}"></iframe>`
     },
   },
